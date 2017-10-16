@@ -1,0 +1,80 @@
+/* Color Schemes  #2f3f3f,   #2f4f4f,   #556b57   */  
+
+
+* {font-family: papyrus; }
+
+#background {background-color: black; opacity: .5;position:fixed; width: 100%; height:100%; z-index:-1;}
+
+nav li:hover  {font-weight: bold;background-color:#556b57;}
+
+nav li:active  {margin-top:.5%;}
+
+p a:hover {font-weight: bold;}
+p a:link {color:#2f4f4f;}
+
+#highlight {background-color:#2f4f4f;}
+
+body {background-image:url("simple1.png");}
+
+h1, p, h2, h3 {color: white; text-align: center;margin: 0px;}
+
+.red{color: red;}
+
+
+#banner {border-radius: 20px;margin-left: 5%;}
+
+
+nav ul  {list-style: none;width:97% ; margin: 0% 2% 0% 2%;}
+
+nav li 		 {		float:left; width:30%; background-color:#2f3f3f ;color:white; font-size:24px; margin-right:2% ;
+
+				 text-align: center;border-radius: 10px;}
+
+article {margin:1% 1% 1% 1%; font-size:25px;}
+
+
+video { margin:0% 10% 0% 18%; }
+
+caption p {font-size:8px;}
+
+
+article h1 {margin:4%;text-align:center;}
+
+
+.flex {display:flex; width:99%;margin-right: 1%;}
+
+.block {display:block;width:25%;}
+
+.block p { font-size:20px;text-align:left; }
+
+
+.full  {width: 100%;}
+
+
+fieldset {margin-left: 5%;}
+
+img {margin-right:2%; border-radius: 5px;}
+
+
+footer {background-color:black;position:relative; min-height:30%;  bottom:100%; text-align: center;}
+
+
+
+/*====   Sign Up ==== */
+
+
+span {font-size:18px;}
+
+text {color: #daa520;text-align: center;}
+
+
+
+/* media query  */
+
+
+@media screen and (max-width:699px;) { 
+
+ #banner {width: 50%;}
+	
+
+}
